@@ -29,14 +29,12 @@ public class Livro {
 
         System.out.println("------Livros------");
         System.out.println("\n-Livro 1:");
-        System.out.println("Código: " + codigo);
-        System.out.println("Titulo: " + titulo);
-        System.out.println("Autores: " + autor);
-        System.out.println("Isbn: " + isbn);
-        System.out.println("Ano: " + ano + "\n");
+        System.out.println("Código: " + biblioteca.getCodigo());
+        System.out.println("Titulo: " + biblioteca.getTitulo());
+        System.out.println("Autores: " + biblioteca.getAutor());
+        System.out.println("Isbn: " + biblioteca.getIsbn());
+        System.out.println("Ano: " + biblioteca.getAno() + "\n");
 
         scan.close();
-}
-        
-    
+  }   
 }
