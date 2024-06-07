@@ -1,0 +1,2 @@
+CPF: 123456789, Peso: 54, Altura: 175
+CPF: 13456789, Peso: 65, Altura: 199
